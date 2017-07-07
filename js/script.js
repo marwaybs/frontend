@@ -1,6 +1,3 @@
-$(document).ready(function(){
-    $('.carousel').carousel();
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
-
+$(function(){
+  $('.carousel.carousel-slider').carousel({full_width: true});
 });
-        
